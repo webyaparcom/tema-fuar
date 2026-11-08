@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Fuar ve etkinlik kurulumu; görseller temsilîdir.",
+    "en": "Expo and event setup; images are representative.",
+    "ar": "تجهيز معارض وفعاليات؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "fuar, etkinlik, sahne",
+    "en": "expo, event, stage",
+    "ar": "معرض، فعالية، مسرح"
+  },
+  "category": "Kurumsal",
+  "name": "Etkinlik Sahnesi",
+  "domain": "fuar.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "poppins",
+    "heading": "poppins",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#976B02",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "7px",
+    "--mx-radius-md": "12px",
+    "--mx-radius-lg": "17px",
+    "--mx-radius-xl": "23px"
+  },
+  "icon": "icon.png"
+}

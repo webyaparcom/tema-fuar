@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Fikirten baskıya; metinden görselle.",
-        "en": "From idea to print; from text to image.",
-        "ar": "من الفكرة إلى الطباعة؛ من النص إلى الصورة."
+        "tr": "Stand tasarımından sahne ve ışığa, açılıştan etkinlik günü koordinasyonuna.",
+        "en": "From stand design to stage and lighting, from the opening to event-day coordination.",
+        "ar": "من تصميم الجناح إلى المسرح والإضاءة، ومن الافتتاح إلى تنسيق يوم الفعالية."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -50,7 +50,7 @@
       "pathnext": "",
       "description": {
         "tr": "Fuar ve etkinlik kurulumu; görseller temsilîdir.",
-        "en": "Expo and event setup; images are representative.",
+        "en": "Expo and event set-up; images are representative.",
         "ar": "تجهيز معارض وفعاليات؛ الصور تمثيلية."
       }
     },

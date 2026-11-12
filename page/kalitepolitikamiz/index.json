@@ -27,9 +27,9 @@
   "index": 2,
   "url": "",
   "text": {
-    "tr": "<h2>Kalite Politikamız</h2>\n<p>Net metin, ölçülü veri ve kayıt kültürü esastır.</p>",
-    "en": "<h2>Our quality policy</h2>\n<p>Clear text, measured data and a record culture are essential.</p>",
-    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>النص الواضح والبيانات المتوازنة وثقافة السجل أساسية.</p>"
+    "tr": "<h2>Kalite Politikamız</h2>\n<p>Alan güvenliği, kurulum planı ve etkinlik günü koordinasyonu yazılı plana bağlanır; katılımcı verileri yalnızca kayıt amacıyla kullanılır.</p>",
+    "en": "<h2>Our quality policy</h2>\n<p>Site safety, the installation plan and event-day coordination follow a written plan; attendee data is used only for registration.</p>",
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>تخضع سلامة الموقع وخطة التركيب وتنسيق يوم الفعالية لخطة مكتوبة، ولا تُستخدم بيانات الحضور إلا لأغراض التسجيل.</p>"
   },
   "title": {
     "tr": "Kalite Politikamız",
@@ -37,7 +37,7 @@
     "ar": "سياسة الجودة"
   },
   "date": "2026-11-05T18:57:20.885Z",
-  "update": "2026-11-05T23:44:33.798Z",
+  "update": "2026-11-12T07:35:47.339Z",
   "sablonIzi": "acedf6b7c400faec",
   "sablonIziDil": {
     "en": "587042c99dce90ca",

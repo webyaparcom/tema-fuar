@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,8 +1489,8 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
+          "tr": "Teklif iste",
+          "en": "Request a quote",
           "ar": "اطلب عرض سعر"
         },
         "cta_url": "teklif-al"
@@ -1533,29 +1544,29 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "Etkinlik & fuar",
-          "en": "Events & expo",
-          "ar": "فعاليات ومعارض"
+          "tr": "Fuar ve etkinlik",
+          "en": "Expo & events",
+          "ar": "معارض وفعاليات"
         },
         "title": {
-          "tr": "Sahne, seninle dolmalı",
-          "en": "The stage should fill with you",
-          "ar": "ينبغي أن يمتلأ المسرح بك"
+          "tr": "Standınız hazır, sahneniz kurulu",
+          "en": "Your stand is ready, your stage is set",
+          "ar": "جناحكم جاهز ومسرحكم مُعدّ"
         },
         "metin": {
-          "tr": "Etkinlik Sahnesi, fuar ve etkinlik kurar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Sahne sets up expo and events. Images are representative and text is fictional.",
-          "ar": "ينظم مسرح فعاليات المعارض والفعاليات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Fuar standı, sahne ve kurumsal etkinlik kurulumunu planlamadan söküme tek ekiple yürütürüz. Görseller temsilîdir.",
+          "en": "We run expo stands, stages and corporate events with one team, from planning to dismantling. Images are representative.",
+          "ar": "ننفّذ أجنحة المعارض والمسارح والفعاليات المؤسسية بفريق واحد من التخطيط حتى التفكيك. الصور تمثيلية."
         },
         "cta1": {
-          "tr": "Sahne listesi",
-          "en": "Stage list",
-          "ar": "قائمة المسرح"
+          "tr": "Hizmetlerimiz",
+          "en": "Our services",
+          "ar": "خدماتنا"
         },
         "cta1_url": "hizmetler",
         "cta2": {
           "tr": "Teklif iste",
-          "en": "Request quote",
+          "en": "Request a quote",
           "ar": "اطلب عرض سعر"
         },
         "cta2_url": "teklif-al",
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Ne üretiyoruz?",
-          "en": "What do we create?",
-          "ar": "ماذا نعيد؟"
+          "tr": "Neleri hazırlıyoruz?",
+          "en": "What do we set up?",
+          "ar": "ماذا نجهّز؟"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1613,13 +1624,13 @@
       },
       "data": [
         {
-          "deger": 250,
-          "sonek": "",
-          "ikon": "design_services",
+          "deger": 120,
+          "sonek": "+",
+          "ikon": "event_available",
           "etiket": {
-            "tr": "Kampanya",
-            "en": "Campaigns",
-            "ar": "حملات"
+            "tr": "Etkinlik",
+            "en": "Events",
+            "ar": "فعالية"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1628,13 +1639,13 @@
           }
         },
         {
-          "deger": 40,
-          "sonek": "",
-          "ikon": "photo_camera",
+          "deger": 35,
+          "sonek": "+",
+          "ikon": "storefront",
           "etiket": {
-            "tr": "Set",
-            "en": "Sets",
-            "ar": "أطقم"
+            "tr": "Fuar standı",
+            "en": "Expo stands",
+            "ar": "جناح معرض"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1643,13 +1654,13 @@
           }
         },
         {
-          "deger": 12,
+          "deger": 8,
           "sonek": "",
-          "ikon": "videocam",
+          "ikon": "calendar_month",
           "etiket": {
-            "tr": "Min video",
-            "en": "Min of video",
-            "ar": "دقائق فيديو"
+            "tr": "Yıllık fuar katılımı",
+            "en": "Expos a year",
+            "ar": "معرض سنويًا"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1658,13 +1669,13 @@
           }
         },
         {
-          "deger": 7,
+          "deger": 15,
           "sonek": "",
           "ikon": "groups",
           "etiket": {
-            "tr": "Atölye",
-            "en": "Studio",
-            "ar": "استوديو"
+            "tr": "Saha ekibi",
+            "en": "On-site crew",
+            "ar": "فريق ميداني"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "İçerik & Tasarım",
-          "en": "Content & Design",
-          "ar": "محتوى وتصميم"
+          "tr": "Fuar ve etkinlik",
+          "en": "Expo & events",
+          "ar": "معارض وفعاليات"
         },
         "title": {
-          "tr": "Ne üretiyoruz?",
-          "en": "What do we create?",
-          "ar": "ماذا نعيد؟"
+          "tr": "Neleri hazırlıyoruz?",
+          "en": "What do we set up?",
+          "ar": "ماذا نجهّز؟"
         },
         "description": {
-          "tr": "Fikirten baskıya; metinden görselle.",
-          "en": "From idea to print; from text to image.",
-          "ar": "من الفكرة إلى الطباعة؛ من النص إلى الصورة."
+          "tr": "Stand tasarımından sahne ve ışığa, açılıştan etkinlik günü koordinasyonuna.",
+          "en": "From stand design to stage and lighting, from the opening to event-day coordination.",
+          "ar": "من تصميم الجناح إلى المسرح والإضاءة، ومن الافتتاح إلى تنسيق يوم الفعالية."
         }
       },
       "data": [
         {
-          "icon": "campaign",
+          "icon": "storefront",
           "name": {
-            "tr": "Kampanya",
-            "en": "Campaign",
-            "ar": "حملة"
+            "tr": "Fuar standı",
+            "en": "Expo stand",
+            "ar": "جناح المعرض"
           },
           "description": {
-            "tr": "Mevsim ve etkinlik planı.",
-            "en": "Season and event plan.",
-            "ar": "خطة موسم ومناسبة."
+            "tr": "Stand tasarımı, üretimi, kurulumu ve sökümü.",
+            "en": "Stand design, production, installation and dismantling.",
+            "ar": "تصميم الجناح وإنتاجه وتركيبه وتفكيكه."
           }
         },
         {
-          "icon": "design_services",
+          "icon": "event_available",
           "name": {
-            "tr": "Tasarım",
-            "en": "Design",
-            "ar": "التصميم"
+            "tr": "Etkinlik organizasyonu",
+            "en": "Event organisation",
+            "ar": "تنظيم الفعاليات"
           },
           "description": {
-            "tr": "Affiş, menü ve kart tasarımı.",
-            "en": "Poster, menu and card design.",
-            "ar": "تصميم بوستر وقائمة وبطاقة."
+            "tr": "Lansman, toplantı ve gala için plan ve koordinasyon.",
+            "en": "Planning and coordination for launches, meetings and galas.",
+            "ar": "تخطيط وتنسيق لحفلات الإطلاق والاجتماعات والحفلات الكبرى."
           }
         },
         {
-          "icon": "photo_camera",
+          "icon": "speaker",
           "name": {
-            "tr": "Fotoğraf seti",
-            "en": "Photo set",
-            "ar": "طقم صور"
+            "tr": "Sahne, ses ve ışık",
+            "en": "Stage, sound & lighting",
+            "ar": "المسرح والصوت والإضاءة"
           },
           "description": {
-            "tr": "İç mekân ürün çekimi.",
-            "en": "Indoor product shoot.",
-            "ar": "تصوير داخلي للمنتج."
+            "tr": "Sahne kurulumu, ses sistemi ve ışık tasarımı.",
+            "en": "Stage construction, sound system and lighting design.",
+            "ar": "إنشاء المسرح ونظام الصوت وتصميم الإضاءة."
+          }
+        },
+        {
+          "icon": "badge",
+          "name": {
+            "tr": "Kayıt ve karşılama",
+            "en": "Registration & welcome",
+            "ar": "التسجيل والاستقبال"
+          },
+          "description": {
+            "tr": "Katılımcı kaydı, yaka kartı ve karşılama masası.",
+            "en": "Attendee registration, badges and welcome desk.",
+            "ar": "تسجيل الحضور والبطاقات التعريفية ومكتب الاستقبال."
+          }
+        },
+        {
+          "icon": "print",
+          "name": {
+            "tr": "Baskı ve tabela",
+            "en": "Print & signage",
+            "ar": "الطباعة واللافتات"
+          },
+          "description": {
+            "tr": "Afiş, yönlendirme tabelası ve stand grafikleri.",
+            "en": "Posters, wayfinding signs and stand graphics.",
+            "ar": "ملصقات ولافتات إرشادية ورسومات الأجنحة."
           }
         },
         {
           "icon": "videocam",
           "name": {
-            "tr": "Video çekimi",
-            "en": "Video shoot",
-            "ar": "تصوير فيديو"
+            "tr": "Etkinlik foto ve video",
+            "en": "Event photo & video",
+            "ar": "تصوير الفعاليات"
           },
           "description": {
-            "tr": "Tanıtım ve etkinlik videosu.",
-            "en": "Promotion and event video.",
-            "ar": "فيديو ترويج ومناسبة."
-          }
-        },
-        {
-          "icon": "ads_click",
-          "name": {
-            "tr": "İçerik takvimi",
-            "en": "Content calendar",
-            "ar": "تقويم محتوى"
-          },
-          "description": {
-            "tr": "Haftalık paylaşım planı (demo).",
-            "en": "Weekly sharing plan (demo).",
-            "ar": "خطة نشر أسبوعية (تجريبي)."
-          }
-        },
-        {
-          "icon": "storefront",
-          "name": {
-            "tr": "Mizanpaj",
-            "en": "Layout",
-            "ar": "تخطيط"
-          },
-          "description": {
-            "tr": "Baskı ve ekrana mizanpaj.",
-            "en": "Print and screen layout.",
-            "ar": "تخطيط طباعة وشاشة."
+            "tr": "Etkinlik günü fotoğraf ve kısa özet filmi.",
+            "en": "Event-day photos and a short highlight film.",
+            "ar": "صور يوم الفعالية وفيلم ملخص قصير."
           }
         }
       ],
@@ -1819,14 +1830,14 @@
           "ar": "كيف نعمل؟"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Brifden sökümüne dört adım",
+          "en": "Four steps from brief to teardown",
+          "ar": "أربع خطوات من الموجز إلى التفكيك"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "İlk görüşmeden etkinlik sonrası söküme.",
+          "en": "From the first meeting to teardown after the event.",
+          "ar": "من اللقاء الأول إلى التفكيك بعد الفعالية."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,53 +1847,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Kısa röportaj",
-            "en": "Brief talk",
-            "ar": "مكالمة قصيرة"
+            "tr": "Brif",
+            "en": "Brief",
+            "ar": "الموجز"
           },
           "text": {
-            "tr": "Tema ve zaman çerçevesi.",
-            "en": "Theme and time frame.",
-            "ar": "إطار الموضوع والوقت."
+            "tr": "Etkinliğin amacı, tarihi ve bütçe çerçevesi.",
+            "en": "The purpose, date and budget range of the event.",
+            "ar": "هدف الفعالية وموعدها وإطار الميزانية."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Taslak",
-            "en": "Draft",
-            "ar": "المسودة"
+            "tr": "Konsept ve plan",
+            "en": "Concept & plan",
+            "ar": "الفكرة والخطة"
           },
           "text": {
-            "tr": "İlk görsel ve metin önerisi.",
-            "en": "First visual and text proposal.",
-            "ar": "اقتراح أولي للصور والنص."
+            "tr": "Yerleşim planı, tasarım önerisi ve takvim.",
+            "en": "Floor plan, design proposal and schedule.",
+            "ar": "مخطط الموقع واقتراح التصميم والجدول الزمني."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Revizyon",
-            "en": "Revision",
-            "ar": "المراجعة"
+            "tr": "Kurulum",
+            "en": "Set-up",
+            "ar": "التركيب"
           },
           "text": {
-            "tr": "Yorum ve son düzen.",
-            "en": "Feedback and final edit.",
-            "ar": "ملاحظات وتعديل نهائي."
+            "tr": "Üretim, nakliye ve alanda montaj.",
+            "en": "Production, transport and on-site assembly.",
+            "ar": "الإنتاج والنقل والتركيب في الموقع."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Teslim",
-            "en": "Delivery",
-            "ar": "التسليم"
+            "tr": "Etkinlik ve söküm",
+            "en": "Event & teardown",
+            "ar": "الفعالية والتفكيك"
           },
           "text": {
-            "tr": "Baskı/ekran dosyaları.",
-            "en": "Print/screen files.",
-            "ar": "ملفات طباعة/شاشة."
+            "tr": "Etkinlik günü koordinasyonu, ardından söküm.",
+            "en": "Event-day coordination, then teardown.",
+            "ar": "تنسيق يوم الفعالية ثم التفكيك."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Etkinlik ekibi",
+          "en": "Event team",
+          "ar": "فريق الفعاليات"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Sahne arkasındakiler",
+          "en": "The people behind the stage",
+          "ar": "من خلف المسرح"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Tuğçe P.",
           "role": {
-            "tr": "Yaratıcı yönetmen",
-            "en": "Creative director",
-            "ar": "مخرج إبداعي"
+            "tr": "Etkinlik direktörü",
+            "en": "Event director",
+            "ar": "مديرة الفعاليات"
           },
           "bio": {
-            "tr": "8 yıl kampanya.",
-            "en": "8 years of campaigns.",
-            "ar": "٨ سنوات في الحملات."
+            "tr": "Kurumsal etkinlik ve fuar planlamada 8 yıl.",
+            "en": "8 years in corporate events and expo planning.",
+            "ar": "8 سنوات في تخطيط الفعاليات المؤسسية والمعارض."
           },
           "img": ""
         },
         {
           "name": "Emre S.",
           "role": {
-            "tr": "Tasarımcı",
-            "en": "Designer",
-            "ar": "مصمم"
+            "tr": "Stand tasarımcısı",
+            "en": "Stand designer",
+            "ar": "مصمم الأجنحة"
           },
           "bio": {
-            "tr": "6 yıl mizanpaj.",
-            "en": "6 years of layout.",
-            "ar": "٦ سنوات في التخطيط."
+            "tr": "Stand ve mekân tasarımında 6 yıl.",
+            "en": "6 years in stand and space design.",
+            "ar": "6 سنوات في تصميم الأجنحة والمساحات."
           },
           "img": ""
         },
         {
           "name": "Selin D.",
           "role": {
-            "tr": "Fotoğrafçı",
-            "en": "Photographer",
-            "ar": "مصور"
+            "tr": "Saha koordinatörü",
+            "en": "Site coordinator",
+            "ar": "منسقة الموقع"
           },
           "bio": {
-            "tr": "5 yıl set.",
-            "en": "5 years of sets.",
-            "ar": "٥ سنوات في الأطقم."
+            "tr": "Kurulum ve etkinlik günü koordinasyonunda 5 yıl.",
+            "en": "5 years coordinating set-up and event days.",
+            "ar": "5 سنوات في تنسيق التركيب وأيام الفعاليات."
           },
           "img": ""
         }
@@ -1998,14 +2009,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Katılımcılar ve müşteriler ne diyor?",
+          "en": "What exhibitors and clients say",
+          "ar": "ماذا يقول العارضون والعملاء؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2017,48 +2028,48 @@
       },
       "data": [
         {
-          "name": "Z. Öztürk.",
+          "name": "Z. Öztürk",
           "role": {
-            "tr": "Müşteri",
-            "en": "Client",
-            "ar": "زبون"
+            "tr": "Fuar katılımcısı",
+            "en": "Expo exhibitor",
+            "ar": "عارض في معرض"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Taslak hızlı; baskı net.",
-            "en": "Draft fast; print sharp.",
-            "ar": "مسودة سريعة؛ طباعة دقيقة."
+            "tr": "Stand zamanında kuruldu; yerleşim ziyaretçi akışına uygundu.",
+            "en": "The stand was ready on time and the layout suited visitor flow.",
+            "ar": "نُصب الجناح في موعده وكان التخطيط مناسبًا لحركة الزوار."
           }
         },
         {
-          "name": "F. Demirel.",
+          "name": "F. Demirel",
           "role": {
-            "tr": "Kafe",
-            "en": "Café owner",
-            "ar": "مقهى"
+            "tr": "Dernek yöneticisi",
+            "en": "Association manager",
+            "ar": "مدير جمعية"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Menü ve affiş aynı tonda.",
-            "en": "Menu and poster in the same tone.",
-            "ar": "القائمة والملصق بنفس النغمة."
+            "tr": "Açılış töreni sorunsuz geçti; ses ve ışık dengeliydi.",
+            "en": "The opening ceremony went smoothly; sound and lighting were balanced.",
+            "ar": "مرّ حفل الافتتاح بسلاسة وكان الصوت والإضاءة متوازنين."
           }
         },
         {
-          "name": "İ. Kaya.",
+          "name": "İ. Kaya",
           "role": {
-            "tr": "Etkinlik",
-            "en": "Event organiser",
-            "ar": "مناسبة"
+            "tr": "Kurumsal müşteri",
+            "en": "Corporate client",
+            "ar": "عميل مؤسسي"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Video teslimi zamanında.",
-            "en": "Video delivery on time.",
-            "ar": "تسليم الفيديو في الوقت."
+            "tr": "Lansman günü koordinasyon düzenliydi.",
+            "en": "Coordination on launch day was well organised.",
+            "ar": "كان التنسيق في يوم الإطلاق منظمًا."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "12px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Neler hazırlıyoruz?",
+          "en": "What we set up",
+          "ar": "ماذا نجهّز؟"
         },
         "title": {
-          "tr": "Ne üretiyoruz?",
-          "en": "What do we create?",
-          "ar": "ماذا نعيد؟"
+          "tr": "Neleri hazırlıyoruz?",
+          "en": "What do we set up?",
+          "ar": "ماذا نجهّز؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; bu bir kurulum örneğidir.",
+          "en": "Images are representative; this is a setup example.",
+          "ar": "الصور تمثيلية؛ وهذا مثال تركيب."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2126,14 +2137,14 @@
       "data": [
         {
           "baslik": {
-            "tr": "Kampanya",
-            "en": "Campaign",
-            "ar": "حملة"
+            "tr": "Fuar standı",
+            "en": "Expo stand",
+            "ar": "جناح المعرض"
           },
           "metin": {
-            "tr": "Mevsim ve etkinlik planı.",
-            "en": "Season and event plan.",
-            "ar": "خطة موسم ومناسبة."
+            "tr": "Stand tasarımı, üretimi, kurulumu ve sökümü.",
+            "en": "Stand design, production, installation and dismantling.",
+            "ar": "تصميم الجناح وإنتاجه وتركيبه وتفكيكه."
           },
           "img": "ajans-is-afis.webp",
           "alt": {
@@ -2145,16 +2156,16 @@
         },
         {
           "baslik": {
-            "tr": "Tasarım",
-            "en": "Design",
-            "ar": "التصميم"
+            "tr": "Etkinlik organizasyonu",
+            "en": "Event organisation",
+            "ar": "تنظيم الفعاليات"
           },
           "metin": {
-            "tr": "Affiş, menü ve kart tasarımı.",
-            "en": "Poster, menu and card design.",
-            "ar": "تصميم بوستر وقائمة وبطاقة."
+            "tr": "Lansman, toplantı ve gala için plan ve koordinasyon.",
+            "en": "Planning and coordination for launches, meetings and galas.",
+            "ar": "تخطيط وتنسيق لحفلات الإطلاق والاجتماعات والحفلات الكبرى."
           },
-          "img": "ajans-is-kirtasiye.webp",
+          "img": "cicekci-organizasyon.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2164,14 +2175,14 @@
         },
         {
           "baslik": {
-            "tr": "Fotoğraf seti",
-            "en": "Photo set",
-            "ar": "طقم صور"
+            "tr": "Sahne, ses ve ışık",
+            "en": "Stage, sound & lighting",
+            "ar": "المسرح والصوت والإضاءة"
           },
           "metin": {
-            "tr": "İç mekân ürün çekimi.",
-            "en": "Indoor product shoot.",
-            "ar": "تصوير داخلي للمنتج."
+            "tr": "Sahne kurulumu, ses sistemi ve ışık tasarımı.",
+            "en": "Stage construction, sound system and lighting design.",
+            "ar": "إنشاء المسرح ونظام الصوت وتصميم الإضاءة."
           },
           "img": "ajans-is-video.webp",
           "alt": {
@@ -2229,14 +2240,14 @@
         "radius": "12px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Çalıştığımız mekân ve kurumlar",
+          "en": "Venues and organisations we work with",
+          "ar": "أماكن وجهات نعمل معها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal mekân ve kurum adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional venue and organisation names; they do not belong to a real organisation.",
+          "ar": "أسماء أماكن وجهات افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Kafe"
+          "name": "Demo Fuar Merkezi"
         },
         {
-          "name": "Demo Etkinlik"
+          "name": "Demo Ticaret Odası"
         },
         {
-          "name": "Demo Baskı"
+          "name": "Demo Kongre Salonu"
         },
         {
-          "name": "Demo Set"
+          "name": "Demo Sanayi Derneği"
         },
         {
-          "name": "Demo Menü"
+          "name": "Demo Marka"
         },
         {
-          "name": "Demo Video"
+          "name": "Demo Belediye Etkinliği"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Stand kurulumu ne kadar sürer?",
+            "en": "How long does stand installation take?",
+            "ar": "كم يستغرق تركيب الجناح؟"
+          },
+          "answer": {
+            "tr": "Stand boyutuna ve fuar alanının teslim saatine göre değişir; kurulum takvimi planda paylaşılır.",
+            "en": "It depends on the stand size and the venue’s access hours; the installation schedule is shared in the plan.",
+            "ar": "يختلف حسب حجم الجناح وساعات تسليم قاعة المعرض، ويُشارك جدول التركيب في الخطة."
+          },
           "soru": {
-            "tr": "Kampanya süresi ne kadar?",
-            "en": "How long is a campaign?",
-            "ar": "مدة الحملة كم?"
+            "tr": "Stand kurulumu ne kadar sürer?",
+            "en": "How long does stand installation take?",
+            "ar": "كم يستغرق تركيب الجناح؟"
           },
           "cevap": {
-            "tr": "Kapsama göre değişir; demo metni örnek vermez.",
-            "en": "It varies by scope; this demo text gives no example.",
-            "ar": "تتغير حسب النطاق؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "Stand boyutuna ve fuar alanının teslim saatine göre değişir; kurulum takvimi planda paylaşılır.",
+            "en": "It depends on the stand size and the venue’s access hours; the installation schedule is shared in the plan.",
+            "ar": "يختلف حسب حجم الجناح وساعات تسليم قاعة المعرض، ويُشارك جدول التركيب في الخطة."
           }
         },
         {
+          "question": {
+            "tr": "Etkinlik için izin ve ruhsat işlemlerine yardım ediyor musunuz?",
+            "en": "Do you help with event permits?",
+            "ar": "هل تساعدون في تصاريح الفعاليات؟"
+          },
+          "answer": {
+            "tr": "Mekân ve etkinlik türüne göre gereken izinleri listeler, başvuru sürecinde destek oluruz.",
+            "en": "We list the permits needed for the venue and event type and support the application process.",
+            "ar": "نحدّد التصاريح اللازمة حسب المكان ونوع الفعالية وندعم عملية التقديم."
+          },
           "soru": {
-            "tr": "Baskı dahil mi?",
-            "en": "Is printing included?",
-            "ar": "هل الطباعة مشمولة?"
+            "tr": "Etkinlik için izin ve ruhsat işlemlerine yardım ediyor musunuz?",
+            "en": "Do you help with event permits?",
+            "ar": "هل تساعدون في تصاريح الفعاليات؟"
           },
           "cevap": {
-            "tr": "Kampanya tipine göre; demo metindir.",
-            "en": "By campaign type; this is a demo text.",
-            "ar": "حسب نوع الحملة؛ هذا نص تجريبي."
+            "tr": "Mekân ve etkinlik türüne göre gereken izinleri listeler, başvuru sürecinde destek oluruz.",
+            "en": "We list the permits needed for the venue and event type and support the application process.",
+            "ar": "نحدّد التصاريح اللازمة حسب المكان ونوع الفعالية وندعم عملية التقديم."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative; names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
-            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative; names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Fiyatlar nasıl belirlenir?",
+            "en": "How are prices determined?",
+            "ar": "كيف تُحدَّد الأسعار؟"
+          },
+          "answer": {
+            "tr": "Alan büyüklüğü, süre ve istenen donanıma göre teklif hazırlanır.",
+            "en": "A quote is prepared from the floor area, duration and requested equipment.",
+            "ar": "يُعدّ عرض السعر حسب مساحة الموقع والمدة والتجهيزات المطلوبة."
+          },
           "soru": {
             "tr": "Fiyatlar nasıl belirlenir?",
             "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "ar": "كيف تُحدَّد الأسعار؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Alan büyüklüğü, süre ve istenen donanıma göre teklif hazırlanır.",
+            "en": "A quote is prepared from the floor area, duration and requested equipment.",
+            "ar": "يُعدّ عرض السعر حسب مساحة الموقع والمدة والتجهيزات المطلوبة."
           }
         }
       ],
@@ -2406,9 +2457,9 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "12px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Etkinlik için teklif isteyin",
+          "en": "Request a quote for your event",
+          "ar": "اطلب عرض سعر لفعاليتك"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
@@ -2421,14 +2472,14 @@
           "ar": "Etkinlik Sahnesi"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; bu bir kurulum örneğidir.",
+          "en": "Images are representative; this is a setup example.",
+          "ar": "الصور تمثيلية؛ وهذا مثال تركيب."
         },
         "address": {
           "tr": "Sahne Meydanı No: 2, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "2 Stage Square, Sahinbey, Gaziantep (fictional address)",
-          "ar": "ساحة مسرح رقم 2، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "ساحة المسرح رقم 2، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 020 01 03",
         "whatsapp": "903420200103",
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Etkinlik formu",
+          "en": "Event form",
+          "ar": "نموذج الفعالية"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Fuar standı",
+              "en": "Expo stand",
+              "ar": "جناح معرض"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Kurumsal etkinlik",
+              "en": "Corporate event",
+              "ar": "فعالية مؤسسية"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Sahne, ses ve ışık",
+              "en": "Stage, sound & lighting",
+              "ar": "المسرح والصوت والإضاءة"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,32 +2691,32 @@
           "ar": "Etkinlik Sahnesi"
         },
         "description": {
-          "tr": "Etkinlik Sahnesi, fuar ve etkinlik kurar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Sahne sets up expo and events. Images are representative and text is fictional.",
-          "ar": "ينظم مسرح فعاليات المعارض والفعاليات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Etkinlik Sahnesi; fuar standı, sahne ve kurumsal etkinlik kurulumu yapan bir organizasyon firmasıdır. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Etkinlik Sahnesi is an organisation company for expo stands, stages and corporate events. Images are representative; the text is fictional.",
+          "ar": "مسرح الفعاليات شركة تنظيم لأجنحة المعارض والمسارح والفعاليات المؤسسية. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Atölye",
-          "en": "Studio",
-          "ar": "الاستوديو"
+          "tr": "Tasarım atölyesi",
+          "en": "Design workshop",
+          "ar": "ورشة التصميم"
         },
         "spot2": {
-          "tr": "Set ve mizanpaj aynı masada.",
-          "en": "Set and layout at the same table.",
-          "ar": "الطقم والتخطيط على نفس الطاولة."
+          "tr": "Stand ve sahne yerleşimi aynı masada çizilir.",
+          "en": "Stand and stage layouts are drawn at the same table.",
+          "ar": "يُرسم تخطيط الجناح والمسرح على الطاولة نفسها."
         },
-        "icon2": "verified",
+        "icon2": "draw",
         "name3": {
-          "tr": "Kampanya defteri",
-          "en": "Campaign book",
-          "ar": "دفتر الحملات"
+          "tr": "Etkinlik takvimi",
+          "en": "Event calendar",
+          "ar": "تقويم الفعاليات"
         },
         "spot3": {
-          "tr": "Her kampanya için renk ve ton kaydı.",
-          "en": "A color and tone record for each campaign.",
-          "ar": "سجل الألوان والنغمات لكل حملة."
+          "tr": "Kurulum, etkinlik ve söküm günleri tek takvimde.",
+          "en": "Set-up, event and teardown days in one calendar.",
+          "ar": "أيام التركيب والفعالية والتفكيك في تقويم واحد."
         },
-        "icon3": "schedule",
+        "icon3": "calendar_month",
         "img": "ajans-ekip-masa.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
@@ -2739,7 +2791,7 @@
         "address": {
           "tr": "Sahne Meydanı No: 2, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "2 Stage Square, Sahinbey, Gaziantep (fictional address)",
-          "ar": "ساحة مسرح رقم 2، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "ساحة المسرح رقم 2، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cmt 09:00 – 18:00",
+          "en": "Mon–Sat 09:00 – 18:00",
+          "ar": "الاثنين–السبت 09:00 – 18:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,19 +2899,19 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "12px",
         "title": {
-          "tr": "Sahne hazır",
-          "en": "Stage ready",
-          "ar": "المسرح جاهز"
+          "tr": "Sahneyi birlikte kuralım",
+          "en": "Let us build your stage together",
+          "ar": "لنُجهّز مسرحكم معًا"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Etkinlik bilgilerinizi forma yazın; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Write your event details in the form; we reply within two business days. No data is stored on this demo site.",
+          "ar": "اكتب تفاصيل فعاليتك في النموذج؛ نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Teklif iste",
+          "en": "Request a quote",
+          "ar": "اطلب عرض سعر"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
@@ -3056,7 +3108,7 @@
         "address": {
           "tr": "Sahne Meydanı No: 2, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "2 Stage Square, Sahinbey, Gaziantep (fictional address)",
-          "ar": "ساحة مسرح رقم 2، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "ساحة المسرح رقم 2، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 020 01 03",
         "email": "sahne@etkinlik.example",

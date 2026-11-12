@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Fuar ve etkinlik kurulumu; görseller temsilîdir.",
-    "en": "Expo and event setup; images are representative.",
-    "ar": "تجهيز معارض وفعاليات؛ الصور تمثيلية."
+    "tr": "Fuar standı, sahne kurulumu ve kurumsal etkinlik organizasyonu; görseller temsilîdir.",
+    "en": "Expo stands, stage set-up and corporate event organisation; images are representative.",
+    "ar": "تصميم أجنحة المعارض وتجهيز المسارح وتنظيم الفعاليات المؤسسية؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "fuar, etkinlik, sahne",
-    "en": "expo, event, stage",
-    "ar": "معرض، فعالية، مسرح"
+    "tr": "fuar standı, etkinlik organizasyonu, sahne kurulumu, lansman, kurumsal etkinlik",
+    "en": "expo stand, event organisation, stage set-up, launch event, corporate event",
+    "ar": "جناح معرض، تنظيم فعاليات، تجهيز مسرح، حفل إطلاق، فعالية مؤسسية"
   },
   "category": "Kurumsal",
   "name": "Etkinlik Sahnesi",

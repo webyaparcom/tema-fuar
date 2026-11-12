@@ -1,7 +1,7 @@
 {
   "name": "Etkinlik Sahnesi",
   "short_name": "Etkinlik Sah",
-  "description": "Fuar ve etkinlik kurulumu; görseller temsilîdir.",
+  "description": "Fuar standı, sahne kurulumu ve kurumsal etkinlik organizasyonu; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",
